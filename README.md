@@ -74,4 +74,4 @@ You will be prompted with questions to fill out employee information. Each type 
 
 ![test-fail](https://user-images.githubusercontent.com/84641285/130378539-4996061d-653d-4392-8d5b-11a5d66e00df.png)
 ![test-pass](https://user-images.githubusercontent.com/84641285/130378596-6608cc42-1c7f-491e-a5a6-a958ff4a240a.png)
-![HTML-sample](https://user-images.githubusercontent.com/84641285/130378679-69e446c4-5357-4ded-a445-bfd53438495f.png)
+![HTML-sample](https://user-images.githubusercontent.com/84641285/130533166-2dce51c6-4982-41d4-b017-012d04ba65a1.png)

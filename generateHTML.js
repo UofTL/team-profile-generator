@@ -18,9 +18,9 @@ const generateHTML = (roster) => {
   <div class="card-body">
   <div class="card" style='min-width: 16rem;'>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">ID: ${manager.getId()}</li>
-    <li class="list-group-item">Email: <a href="mailto:${manager.getEmail()}" target="null">${manager.getEmail()}</a></li>
-    <li class="list-group-item">Office number: ${manager.getOfficeNumber()}</li>
+    <li class="list-group-item"><i class="fas fa-id-badge"></i>${manager.getId()}</li>
+    <li class="list-group-item"><i class="fas fa-envelope-open-text"></i><a href="mailto:${manager.getEmail()}" target="null">${manager.getEmail()}</a></li>
+    <li class="list-group-item"><i class="fas fa-phone"></i>${manager.getOfficeNumber()}</li>
   </ul>
 </div>
   </div>
@@ -42,9 +42,9 @@ const generateHTML = (roster) => {
   <div class="card-body">
   <div class="card" style='min-width: 16rem;'>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">ID: ${intern.getId()}</li>
-    <li class="list-group-item">Email: <a href="mailto:${intern.getEmail()}" target="null">${intern.getEmail()}</a></li>
-    <li class="list-group-item">School: ${intern.getSchool()}</li>
+    <li class="list-group-item"><i class="fas fa-id-badge"></i> ${intern.getId()}</li>
+    <li class="list-group-item"><i class="fas fa-envelope-open-text"></i><a href="mailto:${intern.getEmail()}" target="null">${intern.getEmail()}</a></li>
+    <li class="list-group-item"><i class="fas fa-university"></i>${intern.getSchool()}</li>
   </ul>
 </div>
   </div>
@@ -66,9 +66,9 @@ const generateHTML = (roster) => {
   <div class="card-body">
   <div class="card" style='min-width: 16rem;'>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">ID: ${engineer.getId()}</li>
-    <li class="list-group-item">Email: <a href="mailto:${engineer.getEmail()}" target="null">${engineer.getEmail()}</a></li>
-    <li class="list-group-item">Github: <a href="https://github.com/${engineer.getGithub()}" target="null">${engineer.getGithub()}</a></li>
+    <li class="list-group-item"><i class="fas fa-id-badge"></i>${engineer.getId()}</li>
+    <li class="list-group-item"><i class="fas fa-envelope-open-text"></i><a href="mailto:${engineer.getEmail()}" target="null">${engineer.getEmail()}</a></li>
+    <li class="list-group-item"><i class="fab fa-github"></i><a href="https://github.com/${engineer.getGithub()}" target="null">${engineer.getGithub()}</a></li>
   </ul>
 </div>
   </div>
